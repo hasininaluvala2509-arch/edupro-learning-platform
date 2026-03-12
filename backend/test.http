@@ -1,0 +1,12 @@
+### Test Server
+GET http://localhost:5000
+
+###
+
+### Student Login
+POST http://localhost:5000/api/auth/demo-login
+Content-Type: application/json
+
+{
+"id":"24eg112"
+}
